@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body html{
+    width: 100%;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(rgba(95,146,237,0.3),white,white,white,white,rgba(140,139,139,0.3)) ;
+}
+.top{
+    height: 3vh;
+}
+.banner{
+    height: 6.6vh;
+    /*background-color: antiquewhite;*/
+}
+.center{
+    height: 82.9vh;
+}
+.b{
+    position: absolute;
+    left: 50vw;
+    margin-left: -24.27vw;
+    top: 5.5vh;
+}
+.b img{
+    width: 2vh;
+    height: 2vh;
+    float: left;
+    margin-right: 6vw;
+}
+.kuang1{
+    width: 40vw;
+    height: 2vh;
+    border-radius:1vh;
+    border: 0.1vw solid black;
+    float: left;
+}
+.kuang1 input{
+    width: 38vw;
+    height: 1.8vh;
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 0.5vw;
+    margin-top:-1vh ;
+}
+.center img:nth-child(1){
+    width: 93.6vw;
+    height: 40vh;
+    margin-left: 3.2vw;
+    opacity:0.8;
+}
+.backg{
+    width: 93.6vw;
+    height: 10vh;
+    background-color: white;
+    /*background-color: #1fa2ea;*/
+    margin-left: 3.2vw;
+    margin-top: -8vh;
+    border-radius: 6.7vw;
+    padding: 2vh 0 0 0;
+    box-sizing: border-box;
+    /*background-color: rgba(255,255,255,0.8);*/
+    opacity:0.7;
+    /*cursor: pointer;*/
+}
+.txt{
+    /*margin-top: -18vh;*/
+    margin-left: 6vw;
+}
+.txt p{
+    font-size: 5vw;
+    display: block;
+    color: black;
+    float: left;
+    margin-right: 35vw;
+}
+.txt .txt1{
+    width: 25vw;
+    height: 5vh;
+    background: linear-gradient(-50deg,#b96dd7,#5f92ed);
+    float: left;
+    border-radius: 5vh;;
+    font-size: 4vw;
+    text-align: center;
+    line-height: 5vh;
+    cursor: pointer;
+    margin-top: -0.5vh;
+}
+.both p:nth-child(even){
+    cursor: pointer;
+}
+.both{
+    margin-top: 6vh;
+    /*margin-left: 3.2vw;*/
+    background-color: #5f92ed;
+}
+.txt2{
+    text-align: center;
+    line-height: 2.5vh;
+    font-size: 3.2vw;
+    width: 30.2vw;
+    height: 5vh;
+    float: left;
+}
+.footer{
+    width: 93.6vw;
+    height: 7.5vh;
+    margin-left: 3.2vw;
+    padding: 1.5vh 0;
+    box-sizing: border-box;
+}
+.di{
+    width: 23.4vw;
+    text-align: center;
+    float: left;
+}
+.di img{
+    width: 8vw;
+    height: 8vw;
+    cursor: pointer;
+}
+.both1 .txt3 img{
+    width: 31.2vw;
+    height: 50vw;
+    float: left;
+}
+.ch{
+    margin-left: 3.2vw;
+}
+.choose{
+    width: 30.2vw;
+    height: 0.5vh;
+    float: left;
+}
+.cho{
+    width: 0;
+    height: 0.5vh;
+    background-color: #5f92ed;
+}
